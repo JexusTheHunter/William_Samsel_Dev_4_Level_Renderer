@@ -1,0 +1,10 @@
+^C:\USERS\LIAMS\DESKTOP\WILLIAM_SAMSEL_DEV_4_LEVEL_RENDERER\DEV4 DAY III\VULKAN\BUILD\CMAKEFILES\281A1348B58F3D3392B9A7723A6E70A6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/liams/Desktop/William_Samsel_Dev_4_Level_Renderer/DEV4 Day III/Vulkan" "-BC:/Users/liams/Desktop/William_Samsel_Dev_4_Level_Renderer/DEV4 Day III/Vulkan/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/liams/Desktop/William_Samsel_Dev_4_Level_Renderer/DEV4 Day III/Vulkan/build/Lab3_Vulkan.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
